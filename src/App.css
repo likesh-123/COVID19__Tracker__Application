@@ -6,6 +6,12 @@ body {
   background-color: #f5f6fa;
 }
 
+.image {
+  width: 350px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 .app {
   display: flex;
   justify-content: space-evenly;

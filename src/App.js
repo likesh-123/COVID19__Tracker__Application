@@ -8,6 +8,7 @@ import { sortData, prettyPrintStat } from "./util";
 import numeral from "numeral";
 // import Map from "./Map";
 // import "leaflet/dist/leaflet.css";
+import image from './images/image.png';
 
 
 function App() {
@@ -67,7 +68,7 @@ function App() {
     <div className="app">
       <div className="app__left">
         <div className="app__header">
-          <h1>COVID-19 Tracker</h1>
+          <img className="image" src={image} alt="COVID-19" />
           <FormControl className="app__dropdown">
             <Select
               variant="outlined"
